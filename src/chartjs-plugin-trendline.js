@@ -9,7 +9,7 @@
  * Mod by: vesal: accept also xy-data so works with scatter
  */
 var pluginTrendlineLinear = {
-    id: "trendlineLinear",
+    id: "chartjs-plugin-trendline",
     afterDraw: function(chartInstance) {
         var yScale;
         var xScale;
