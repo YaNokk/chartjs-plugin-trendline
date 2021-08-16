@@ -40,7 +40,6 @@ function addFitter(datasetMeta, ctx, dataset, xScale, yScale) {
     var display = dataset.trendlineLinear.display;
     style = (style !== undefined) ? style : "rgba(169,169,169, .6)";
     style = (display) ? style : "rgba(255, 255, 255, 0)";
-    debugger;
     lineWidth = (lineWidth !== undefined) ? lineWidth : 3;
 
     var fitter = new LineFitter();
